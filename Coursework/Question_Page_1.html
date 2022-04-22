@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<!-- head info including link to stylesheet -->
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial scale=1">
+<link rel="stylesheet" href="Question_Page.css">
+</head>
+<center>
+
+<header>
+<hr/>
+</header>
+
+<body>
+<!-- navigation bar -->
+<div class = "navigation">
+	<a href="Homepage.html">Home</a>
+	<a href="Instruction_Page.html">Instructions</a>
+	<a href="Question_Page_1.html">Quiz</a>
+</div>
+
+<!-- enter name field -->
+<div class="row">
+	<div class="divide">
+		<input type="text" id="myText" value="Your Name">
+		<button onclick="name()">Try it</button>
+		<p id="demo"></p>
+	</div>
+</div>
+
+<script>
+function name() {
+	var n = document.getElementById("myText").value;
+	document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+<!-- main content of the site (image + question) -->
+<div class="row">
+	<div class="divide">
+		<div class="question">
+			<img src="Pictures/Forest.jpg";
+			alt="Dark forest";
+			width="300";
+			height="200";>
+			<p>You awaken to the sound of birdsong and crack open your eyes to see a canopy of dense leaves.
+			The forest is unfamiliar to you, the branches overhead so densely tangled together that you can
+			barely make out the setting sun. Soon, it will be too dark to see at all.
+			<br/>
+			<br/>
+			To your left is a river, shallow enough to see the pale stones glistening on the bottom. 
+			To your right is a hill, and embedded in its side you can just make out the opening of a cave. 
+			The trees to your back are too densely packed to see beyond a few feet.
+			</p>
+		</div>
+	</div>
+</div>
+
+<!-- buttons -->
+<div class="row">
+	<div class="divide">
+		<div class="button"> <a href="2_River.html">1. Follow The River</div>
+	</div>
+	<div class="divide">
+		<div class="button"> <a href="2_Cave.html">2. Investigate The Cave</div>
+	</div>
+</div>
+
+<!-- audio player -->
+<div class="row">
+	<div class="sound">
+		<audio controls autoplay>
+		<source src="Sounds/forest-ambience.mp3" type="audio/wav">
+		</audio>
+	</div>
+</div>
+
+</body>
