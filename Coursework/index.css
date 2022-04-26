@@ -68,10 +68,6 @@ a:link, a:visited{
 	text-decoration: none;
 }
 
-.content {
-	color: #800000;	
-}
-
 
 /* page is separated into rows and columns using flexbox */
 .row {
