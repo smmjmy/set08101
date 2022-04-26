@@ -39,7 +39,6 @@ html {
 /* main title */
 .title {
 	color: #800000;
-/*	padding: 0px; */
 	text-align: center;
 	font-size: 40px;
 }
@@ -69,14 +68,10 @@ a:link, a:visited{
 	text-decoration: none;
 }
 
-/* styles the main content of the page */
-.end {
-	padding: 20px 0;
-	color: #f0ffff;
-	text-align: center;
-	font-size: large;
-	margin: 0px 250px;
+.content {
+	color: #800000;	
 }
+
 
 /* page is separated into rows and columns using flexbox */
 .row {
