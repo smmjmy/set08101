@@ -95,8 +95,4 @@ a:link, a:visited{
 	height: 360px;
 }
 
-/* controls positioning of audio player */
-.sound {
-	flex: 1.50;
-	margin: 60px
-}
+
