@@ -5,6 +5,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial scale=1">
 <link rel="stylesheet" href="Question_Page.css">
+<script src="name.js"></script>
 </head>
 <center>
 
@@ -20,14 +21,25 @@
 	<a href="Question_Page_1.html">Quiz</a>
 </div>
 
+<!-- input box which requests the user's name -->
+<div class="row">
+	<div class="divide">
+		<div class="username">
+			<input type="text" placeholder="Please Enter Your Name" id="myInput">
+			<button type="button" onclick="getInputValue();">Enter</button>
+		</div>
+	</div>
+</div>
+
+
 <!-- main content of the site (image + question) -->
 <div class="row">
 	<div class="divide">
 		<div class="question">
 			<img src="Pictures/Forest.jpg";
 			alt="Dark forest";
-			width="400";
-			height="300";>
+			width="300";
+			height="200";>
 			<p>You awaken to the sound of birdsong and crack open your eyes to see a canopy of dense leaves.
 			The forest is unfamiliar to you, the branches overhead so densely tangled together that you can
 			barely make out the setting sun. Soon, it will be too dark to see at all.
