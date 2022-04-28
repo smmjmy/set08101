@@ -88,9 +88,7 @@ a:link, a:visited{
 	height: 360px;
 }
 
-/* controls positioning of audio player */
-.sound {
-	flex: 1.50;
-	margin: 60px
+/* controls the positioning of the input box */
+.username {
+	padding: 20px
 }
-
