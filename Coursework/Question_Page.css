@@ -109,10 +109,6 @@ a:link, a:visited{
 	height: 360px;
 }
 
-/* controls the positioning of the input box */
-.username {
-	padding: 20px
-}
 
 /* controls positioning of audio player */
 .sound {
