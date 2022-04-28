@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<!-- head info including link to stylesheet -->
+<!-- head info including link to stylesheet & JavaScript -->
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial scale=1">
 <link rel="stylesheet" href="Question_Page.css">
+<script src="name.js"></script>
 </head>
 <center>
 
@@ -12,7 +13,7 @@
 <hr/>
 </header>
 
-<body>
+<body onload="output()">
 <!-- navigation bar -->
 	<div class = "navigation">
 		<a href="Homepage.html">Home</a>
@@ -30,13 +31,21 @@
 <!-- main content of the site (image + question) -->
 	<div class="row">
 		<div class="question">
-			<img src="Pictures/grass.JPG";
+			<img src="Pictures/grass.jpg";
 			alt="a close up shot of grass";
 			width="400";
 			height="300";>
 			<p> The air is strangely still as you approach the circle. Even the birds have fallen silent. 
 			Despite the strange circumstances, you feel oddly at peace here.
-			The weight of your journey so far weighs heavily on you, and the sun is getting low. 
+			The weight of your journey so far weighs heavily on you, and the sun is getting low.
+			<br/>
+			When you look more closely at the rocks there seem to be faint etchings on their surface.
+			It almost looks like...No, that can't be right.
+			</p>
+			<b>
+			<p id="nameText"></p>
+			</b>
+			<p>
 			It will be dark soon, but the grass beneath your feet is lush. It seems as good a place as any to rest for the night.
 			</p>
 		</div>
