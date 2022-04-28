@@ -1,6 +1,6 @@
 
 body {
-	background: url(Pictures/homepage_sky.JPG);
+	background: url(Pictures/homepage_sky.jpg);
 }
 
 /* navigation bar */
@@ -31,6 +31,7 @@ body {
 /* main title */
 .title {
 	color: #800000;
+/*	padding: 0px; */
 	text-align: center;
 	font-size: 40px;
 }
@@ -40,7 +41,7 @@ body {
 	background-color: #800000;
 	border: none;
 	color: white;
-	padding: 30px;
+	padding: 20px;
 	text-align: left;
 	text-decoration: none;
 	display: inline-block;
@@ -60,11 +61,19 @@ a:link, a:visited{
 	text-decoration: none;
 }
 
+/* styles the main content of the page */
+.end {
+	padding: 20px 0;
+	color: #f0ffff;
+	text-align: center;
+	font-size: large;
+	margin: 0px 250px;
+}
 
 /* page is separated into rows and columns using flexbox */
 .row {
 	display: flex;
-	background-color: black
+/*	background-color: */
 }
 
 .divide {
@@ -78,4 +87,9 @@ a:link, a:visited{
 	height: 360px;
 }
 
+/* controls positioning of audio player */
+.sound {
+	flex: 1.50;
+	margin: 60px
+}
 
